@@ -1,0 +1,48 @@
+body {
+    font-family: 'Monaco', sans-serif;
+    background-color: maroon;
+    color: black;
+    margin: 0px;
+    padding: 25px;
+  }
+  nav {
+    background-color: gold;
+    padding: 1em;
+  }
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+  }
+  nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  nav a:hover {
+    color: orange;
+  }
+  
+  nav a:visited {
+    color: purple;
+  }
+  section {
+    padding: 0;
+    margin: 20px;
+    border: 10px solid black;
+    background-color: white;
+  }
+  .parent {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  .child {
+    background-color: white;
+    padding: 10px;
+    flex: 1;
+    margin: 60px;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 8px;
+  }
